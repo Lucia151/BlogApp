@@ -21,7 +21,7 @@ function PostDetails() {
         <p>Zizi</p>
             <div className="flex space-x-2">
             <p>1/18/2024</p> 
-            <p>14:35</p>
+            <p>14:37</p>
 
         </div>
         </div>
