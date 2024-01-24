@@ -4,7 +4,7 @@ function HomePost() {
   return (
     <div className="w-full flex mt-8 space-x-2">
       <div className="w-[35%] h-[-200px] flex justify-center items-center">
-        <img src="" alt="" className="h-full w-full object-cover"/>
+        <img src="Puth the image source" alt="" className="h-full w-full object-cover"/>
         </div>
 
         <div className=" flex flex-col w-[65%]">
