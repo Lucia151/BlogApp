@@ -29,9 +29,9 @@ function PostDetails() {
         <div className="flex items-center mt-8 space-x-4 font-semibold">
          <p> Categories:</p>
          <div className="flex justify-center items-center space-x-2">
-            <div className="bg-gray-300 rounded-lg px-3 py-1">Technology</div>
-            <div className="bg-gray-300 rounded-lg px-3 py-1">Plants</div>
-            <div className="bg-gray-300 rounded-lg px-3 py-1">Medicine</div>
+            <div className="bg-blue-300 rounded-lg px-3 py-1">Technology</div>
+            <div className="bg-blue-300 rounded-lg px-3 py-1">Plants</div>
+            <div className="bg-blue-300 rounded-lg px-3 py-1">Medicine</div>
 
          </div>
         </div>
