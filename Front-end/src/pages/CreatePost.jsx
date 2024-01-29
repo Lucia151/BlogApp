@@ -23,8 +23,6 @@ function CreatePost() {
     setCat("")
     setCats(updatedCats)
 
-
-
   }
   return (
     <div>
