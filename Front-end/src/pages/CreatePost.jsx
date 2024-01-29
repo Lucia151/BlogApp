@@ -10,14 +10,19 @@ function CreatePost() {
   // Define used states
   const[cat,setCat]=useState("")
   const[cats,setCats]=useState([])
-  const deleteCategory=()=>{
-    
+
+  const deleteCategory=(i)=>{
+    let updatedCats=[...cats]
+    updatedCats.splice(i)
+    setCats(updatedCats)
   }
 
   const addCategory=()=>{
     let updatedCats=[...cats]
     updatedCats.push(cat)
     setCat("")
+    setCats(updatedCats)
+
 
 
   }
@@ -37,10 +42,14 @@ function CreatePost() {
 
         {/* Each category has it's own div */}
                 <div className="flex px-4 mt-3">
-                <div className="flex justify-center items-center space-x-2 mr-4 bg-gray-200 px-2 py-1 rounded-md">
-                  <p>Technology</p>
-                  <p onClick={deleteCategory} className="text-white bg-black rounded-full cursor-pointer p-1 text-sm"><ImCross/></p>
+                  {cats?.map((c,i)=>( 
+                  <div key={i} className="flex justify-center items-center space-x-2 mr-4 bg-gray-200 px-2 py-1 rounded-md">
+                  <p>{c}</p>
+                  <p onClick={deleteCategory(i)} className="text-white bg-black rounded-full cursor-pointer p-1 text-sm"><ImCross/></p>
                 </div>
+                
+                ))}
+               
 
                 {/* <div className="flex justify-center items-center space-x-2 mr-4 bg-gray-200 px-2 py-1 rounded-md">
                   <p>Medicine</p>
