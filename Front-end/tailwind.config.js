@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        buttonsBlue: '#1565D8',
+        inputOutlineGray:'#959EAD',
+        inputText:'#C3CAD9',
+        cardsGray:'#E6E2E2',
+        headingsBlue:'#183B56',
+        
+        
+      }
+    
+    },
   },
   plugins: [],
 }
