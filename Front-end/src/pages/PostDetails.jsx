@@ -29,12 +29,19 @@ function PostDetails() {
         <div className="flex items-center mt-8 space-x-4 font-semibold">
          <p> Categories:</p>
          <div className="flex justify-center items-center space-x-2">
-            <div className="bg-blue-300 rounded-lg px-3 py-1">Technology</div>
-            <div className="bg-blue-300 rounded-lg px-3 py-1">Plants</div>
-            <div className="bg-blue-300 rounded-lg px-3 py-1">Medicine</div>
+         <div className="bg-blue-400 rounded-lg px-3 py-1 text-white hover:bg-blue-800 transition duration-300 ease-in-out">Technology</div>
+         <div className="bg-blue-400 rounded-lg px-3 py-1 text-white hover:bg-blue-800 transition duration-300 ease-in-out">Plants</div>
+         <div className="bg-blue-400 rounded-lg px-3 py-1 text-white hover:bg-blue-800 transition duration-300 ease-in-out">Medicine</div>
+       </div>
 
-         </div>
         </div>
+
+         {/* Write a comment */}
+         <div className="w-full flex flex-col mt-4 md:flex-row gap-3">
+            <input type="text" placeholder="Write a comment" className="md:w-[90%] border-2 outline-none px-4 mt-4 md:mt-0"/>
+            <button className="bg-black text-sm text-white px-2 rounded-md py-2 md:w-[10%] mt-4 md:mt-0">Add comment</button>
+        </div>
+
         <div className="flex flex-col mt-4">
             <h3 className="mt-6 mb-4 font-semibold">Comments:</h3>
             {/* Comments section */}
@@ -74,13 +81,7 @@ function PostDetails() {
             </div>
         </div>
 
-        {/* Write a comment */}
-        <div className="w-full flex flex-col mt-4 md:flex-row">
-            <input type="text" placeholder="Write a comment" className="md:w-[90%] outline-none px-4 mt-4 md:mt-0"/>
-            <button className="bg-black text-sm text-white px-2 py-2 md:w-[10%] mt-4 md:mt-0">Add comment</button>
-
-
-        </div>
+       
 
         </div>
         <Footer/>

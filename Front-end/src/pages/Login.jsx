@@ -13,10 +13,10 @@ function Login() {
       <div className="flex justify-evenly flex-wrap items-center h-[70vh]  border-2 border-inputOutlineGray m-10">
 
         <div>
-          <p className='font-bold text-xl mb-5 text-center'>vhvfujgjbcjdsb</p>
-          <p>vhscvscmv kkewv vkre gler</p>
-          <p>bfjwefweho wfwife w ogwei gelg</p>
-          <p>cnbewifbiewgf gifwigowef efefwe</p>
+          <p className='font-bold text-xl mb-5 text-center'>Step into the blogging landscape<br/>of tomorrow!</p>
+          <p>Step into a realm where creativity knows no bounds and <br/>ideas soar beyond horizons.  </p>
+          <p>You've just landed in the future of blogging, </p>
+          <p>where innovation, passion, and endless possibilities collide.</p>
 
         </div>
 
