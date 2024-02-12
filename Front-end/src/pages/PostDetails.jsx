@@ -1,3 +1,4 @@
+import Comments from "../components/Comments"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import {BiEdit} from 'react-icons/bi'
@@ -38,43 +39,14 @@ function PostDetails() {
 
          {/* Write a comment */}
          <div className="w-full flex flex-col mt-4 md:flex-row gap-3">
-            <input type="text" placeholder="Write a comment" className="md:w-[90%] border-2 outline-none px-4 mt-4 md:mt-0"/>
-            <button className="bg-black text-sm text-white px-2 rounded-md py-2 md:w-[10%] mt-4 md:mt-0">Add comment</button>
+            <input type="text" placeholder="Write a comment " className="md:w-[90%] border-2 outline-none px-4  mt-4 md:mt-0"/>
+            <button className="bg-buttonsBlue hover:bg-gray-400 text-sm text-white px-2 rounded-md py-2 md:w-[10%] mt-4 md:mt-0">Add comment</button>
         </div>
         <div className="flex flex-col mt-4">
             <h3 className="mt-6 mb-4 font-semibold">Comments:</h3>
             
-            {/* Comments section */}
-            <div className="px-2 py-2 bg-gray-200 rounded-lg my-2">
-            <div className="flex items-center justify-between">
-                <h3 className="font-bold text-red-600">Aphiwe</h3>
-                <div className="flex justify-center items-center space-x-4">
-                 <p className="text-gray-500 text-sm">24/01/2024</p>
-                 <p className="text-gray-500 text-sm">11:23</p>
-            <div className="flex items-center justify-center space-x-2">
-                <p><BiEdit/></p>
-                <p><MdDelete/></p>
-            </div>
-            </div>
-            </div>
-            <p className="px-4 mt-2"> Educative information</p>
-            </div>
-
-             {/* Comments section */}
-             <div className="px-2 py-2 bg-gray-200 rounded-lg my-2">
-            <div className="flex items-center justify-between">
-                <h3 className="font-bold text-red-600">Aphiwe</h3>
-                <div className="flex justify-center items-center space-x-4">
-                 <p className="text-gray-500 text-sm">24/01/2024</p>
-                 <p className="text-gray-500 text-sm">11:23</p>
-            <div className="flex items-center justify-center space-x-2">
-                <p><BiEdit/></p>
-                <p><MdDelete/></p>
-            </div>
-            </div>
-            </div>
-            <p className="px-4 mt-2"> Nice information</p>
-            </div>
+           <Comments/>
+           <Comments/>
         </div>
         </div>
         <Footer/>

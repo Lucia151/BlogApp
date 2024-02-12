@@ -11,7 +11,7 @@ function ProfilePost() {
           <h1 className="text-xl font-bold md:mb-2 mb-1 md:text-2xl">
             Medicine is important
           </h1>
-          <div className="flex mb-2 text-sm font-semibold text-gray-500 items-center justify-between md:mb-4">
+          <div className="flex mb-2 text-sm font-semibold text-gray-400 items-center justify-between md:mb-4">
             <p>Zizi</p>
             <div className="flex space-x-2">
             <p>1/18/2024</p> 
