@@ -4,7 +4,7 @@ import logo  from '../assets/images/logo.png';
 function Navbar() {
   const user=false
   return (
-    <div className="flex items-center justify-between px-6 md:px-[200px] py-1 shadow-md shadow-blue-gray-900/200">
+    <div className="z-10 sticky top-0 bg-gray-50 flex items-center justify-between px-6 md:px-[200px] py-1 shadow-md shadow-blue-gray-900/200">
         <Link to="/"><img className='h-20 w-30' src={logo}/></Link>
         
         <div className="flex items-center justify-center space-x-2 md:space-x-4">
