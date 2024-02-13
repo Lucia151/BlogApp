@@ -21,8 +21,8 @@ function Footer() {
   </div>
 
   {/* Second code snippet added at the corner */}
-  <div className="absolute top-10 right-0 mr-5 ">
-    <div className="border border-blue-300 shadow rounded-md p-4 max-w-sm w-full">
+  <div className="absolute top-10 right-0 mr-4 ">
+    <div className="border border-blue-300 shadow rounded-md p-4 max-w-sm w-z">
       <div className="animate-pulse flex space-x-4">
         <div className="rounded-full bg-slate-200 h-10 w-10"></div>
         <div className="flex-1 space-y-6 py-1">
