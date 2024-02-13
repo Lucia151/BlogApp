@@ -2,10 +2,11 @@ import React from 'react'
 
 function ProfilePost() {
   return (
-    <div className="w-full flex mt-8 space-x-2 ">
-      {/* <div className="w-[35%] h-[-200px] flex justify-center items-center">
-        <img src={postImage} alt="" className="h-full w-full object-cover"/>
-        </div> */}
+    <div className=" gap-4 w-full flex mt-8 space-x-2 ">
+      <img className='h-40 w-60 object-cover rounded-md shadow-xl shadow-blue-gray-900/10 mt-4'
+    src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+    alt="card-image"
+  />
 
         <div className=" flex flex-col w-[65%]">
           <h1 className="text-xl font-bold md:mb-2 mb-1 md:text-2xl">
