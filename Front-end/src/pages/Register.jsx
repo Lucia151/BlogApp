@@ -2,15 +2,16 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/images/logo.png';
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 function Register() {
   return (
     <>
-   
-      <div className="sticky top-0 z-50 flex items-center justify-between px-6 md:px-[200px] py-4 shadow-md shadow-blue-gray-900/200">
+   <Navbar/>
+      {/* <div className="sticky top-0 z-50 flex items-center justify-between px-6 md:px-[200px] py-4 shadow-md shadow-blue-gray-900/200">
       <Link to="/"><img className='h-20 w-30' src={logo} /></Link>
         <h3><Link to="/login">Login</Link></h3>
-        </div>
+        </div> */}
         <div className="bg-gray-100 mt-5 ">
     <form className="w-full flex justify-center items-center h-[70vh]">
         <div className="flex flex-col justify-center items-center space-y-4 w-[80%] md:w-[25%]">
@@ -32,6 +33,7 @@ function Register() {
     </div>
     <p className="py-2 pb-2 text-center text-white bg-black"></p>
     <p className="py-2 pb-2 text-center text-white bg-black">All rights reserved @My blog 2024</p>
+    <Footer/>
     </>
 
   )

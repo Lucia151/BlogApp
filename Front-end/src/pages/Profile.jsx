@@ -3,6 +3,7 @@ import Footer from "../components/Footer"
 import ProfilePost from "../components/ProfilePost"
 
 function Profile() {
+
   return (
     <div>
         <Navbar/>
